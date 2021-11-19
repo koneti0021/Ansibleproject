@@ -1,0 +1,8 @@
+---
+- hosts: koneti
+  tasks:
+  - name: creating new file
+    file:
+      path: /etc/ansible/DEVOPS
+      state: touch
+ ...
