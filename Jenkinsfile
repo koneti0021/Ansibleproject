@@ -4,7 +4,7 @@ pipeline{
     stage('Git Codecheckout'){
       steps{
         script{
-             sh " git clone "
+             sh " git clone <https://github.com/koneti0021/Ansibleproject.git>"
         }
       }
     }
